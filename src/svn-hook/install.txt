@@ -1,0 +1,13 @@
+Installation steps:
+Windows
+1) Create your SVN repository:  svnadmin create c:\svnrepo
+2) Copy pre-commit.py into hooks directory: (c:\svnrepo\hooks)
+3) Copy pre-commit.bat (you can change paths inside to your python/repository)
+4) Copy conf/pmd-check.conf into conf directory (c:\svnrepo\conf)
+
+
+
+
+Final tip: 
+To avoid PMD check on top of standard PMD suppressers - you can just put "NOPMD" into comment.
+
